@@ -1,0 +1,16 @@
+{
+  "name": "interia-website",
+  "version": "1.0.0",
+  "description": "INTERIA - Interior Design Studio Bootstrap 5 + SCSS",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass scss:css --watch --style=compressed",
+    "build": "sass scss:css --style=compressed --no-source-map"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
